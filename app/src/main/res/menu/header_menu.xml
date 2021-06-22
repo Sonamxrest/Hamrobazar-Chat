@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/feeds"
+    android:icon="@drawable/post"
+    android:title="Profile"
+    ></item>
+    <item
+        android:id="@+id/online"
+        android:icon="@drawable/message"
+        android:title="Who's Online?"
+        ></item>
+
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/message"
+        android:title="Messages"
+        ></item>
+
+    <item
+        android:id="@+id/request"
+        android:icon="@drawable/request"
+        android:title="Request"
+        ></item>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="Logout"
+        ></item>
+
+</menu>

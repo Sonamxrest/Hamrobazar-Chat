@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1565C0"
+    android:gravity=""
+    tools:context=".UI.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/td"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HamroBazar"
+        android:textColor="#F8F3F3"
+        android:hint="Username"
+android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        android:src="@drawable/hamro" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="134dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/hamro" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/person"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+               android:layout_margin="2dp"
+                android:fontFamily="@font/poppins_regular"
+android:id="@+id/etUsername"
+              android:hint="Username"
+android:background="@color/white"
+
+
+              />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edt"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/password"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:layout_margin="2dp"
+                android:padding="4dp"
+                android:fontFamily="@font/poppins_regular"
+                android:foregroundGravity="center"
+               android:id="@+id/etPassword"
+                android:hint="Password"
+                android:inputType="textPassword"
+
+                />
+        </LinearLayout>
+        <CheckBox
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_semibold"
+            android:textStyle="bold"
+            android:id="@+id/check"
+
+            android:text="Accept all Terms and Condition"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_regular"
+            android:id="@+id/login"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:background="@drawable/td"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:id="@+id/register"
+            android:layout_gravity="center"
+            android:text="Dont have Account? Register Here"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
